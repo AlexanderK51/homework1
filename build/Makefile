@@ -129,6 +129,30 @@ hello_world/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/build
 .PHONY : hello_world/fast
 
+function.o: function.cpp.o
+.PHONY : function.o
+
+# target to build an object file
+function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/function.cpp.o
+.PHONY : function.cpp.o
+
+function.i: function.cpp.i
+.PHONY : function.i
+
+# target to preprocess a source file
+function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/function.cpp.i
+.PHONY : function.cpp.i
+
+function.s: function.cpp.s
+.PHONY : function.s
+
+# target to generate assembly for a file
+function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_world.dir/build.make CMakeFiles/hello_world.dir/function.cpp.s
+.PHONY : function.cpp.s
+
 hello_world.o: hello_world.cpp.o
 .PHONY : hello_world.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hello_world"
+	@echo "... function.o"
+	@echo "... function.i"
+	@echo "... function.s"
 	@echo "... hello_world.o"
 	@echo "... hello_world.i"
 	@echo "... hello_world.s"

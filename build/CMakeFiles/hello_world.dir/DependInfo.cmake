@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/smuser/homework1/homework1/function.cpp" "CMakeFiles/hello_world.dir/function.cpp.o" "gcc" "CMakeFiles/hello_world.dir/function.cpp.o.d"
   "/home/smuser/homework1/homework1/hello_world.cpp" "CMakeFiles/hello_world.dir/hello_world.cpp.o" "gcc" "CMakeFiles/hello_world.dir/hello_world.cpp.o.d"
   )
 
