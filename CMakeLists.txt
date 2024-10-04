@@ -9,4 +9,4 @@ add_executable(hello_world
 set_target_properties(hello_world PROPERTIES
     CXX_STANDARD 17
     CXX_STANDARD_REQUIRED ON
-)сь
+)
